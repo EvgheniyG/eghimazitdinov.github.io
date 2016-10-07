@@ -213,7 +213,11 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     display: inline-block;
     height: 100px;
     padding: 0;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 101%;
+>>>>>>> 5e28364fa3fdbc64d13c6b016d42c9c2e1859c70
   }
 
 
@@ -322,7 +326,11 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     display: inline-block;
     height: 100px;
     padding: 0;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 101%;
+>>>>>>> 5e28364fa3fdbc64d13c6b016d42c9c2e1859c70
     margin-top: -30px;
   }
 
@@ -463,7 +471,11 @@ span.circles-text {
   display: inline-block;
   height: 100px;
   padding: 0;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 101%;
+>>>>>>> 5e28364fa3fdbc64d13c6b016d42c9c2e1859c70
 }
 
 #portfolio h2 {

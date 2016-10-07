@@ -91,8 +91,14 @@
 
    $('header').css({ 'height': $(window).height() });
    $(window).on('resize', function() {
+<<<<<<< HEAD
         $('header').css({ 'height': $(window).height() });
         $('body').css({ 'width': $(window).width() });
+=======
+
+        $('header').css({ 'height': $(window).height() });
+        $('body').css({ 'width': $(window).width() })
+>>>>>>> 5e28364fa3fdbc64d13c6b016d42c9c2e1859c70
    });
 
 
