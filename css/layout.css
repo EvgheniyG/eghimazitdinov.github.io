@@ -300,7 +300,7 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
     background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
     background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
-    padding-top: 90px;*/
+    padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
     z-index: 0;
@@ -1041,12 +1041,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 90px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #52d3aa;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+    background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+    background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+    overflow: hidden;
+    z-index: 0;
+    font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -1058,10 +1067,11 @@ footer .copyright {
     padding-top: 90px;
  }
 footer .copyright li {
+    font-size: 18px;
     display: inline-block;
     margin: 0;
     padding: 0;
-    line-height: 24px;
+    line-height: 36px;
 }
 .ie footer .copyright li {
    display: inline;
