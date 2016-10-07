@@ -7,19 +7,6 @@
  jQuery(document).ready(function($) {
 
 /*----------------------------------------------------*/
-/* Tweetie
------------------------------------------------------- */
-
-$('.tweet').twittie({
-    owner: 'evgimov_i',
-    dateFormat: '%b. %d, %Y',
-    template: '{{tweet}} <div class="date">{{date}}</div>',
-    count: 3,
-    loadingText: 'Loading!',
-    apiPath:'../api/tweet.php'
-});
-
-/*----------------------------------------------------*/
 /* Progress skills bar
 ------------------------------------------------------ */
 
