@@ -213,7 +213,7 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     display: inline-block;
     height: 100px;
     padding: 0;
-    width: 101%;
+    width: 100%;
   }
 
 
@@ -322,7 +322,7 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     display: inline-block;
     height: 100px;
     padding: 0;
-    width: 101%;
+    width: 100%;
     margin-top: -30px;
   }
 
@@ -463,7 +463,7 @@ span.circles-text {
   display: inline-block;
   height: 100px;
   padding: 0;
-  width: 101%;
+  width: 100%;
 }
 
 #portfolio h2 {
