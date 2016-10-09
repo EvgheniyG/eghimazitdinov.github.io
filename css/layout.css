@@ -319,8 +319,7 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
     display: inline-block;
     height: 100px;
     padding: 0;
-    width: 100%;
-    margin-top: -30px;
+    width: 101%;
   }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
@@ -443,7 +442,6 @@ span.circles-text {
 
 #portfolio {
    background: #fff;
-   padding-top: 90px; 
    padding-bottom: 60px;
 }
 
