@@ -135,7 +135,7 @@
 
     });
 
-    $(document).on('click', '.popup-modal-dismisshyg', function (e) {
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
     		e.preventDefault();
     		$.magnificPopup.close();
     });
