@@ -201,15 +201,40 @@
 
    /* About Section
    -------------------------------------------------------------------- */
+   #about h2 {
+
+   }
+
    #about .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
    }
+   #about .download {
+      position: relative;
+      top: -120px;
+      margin-left: 120px;
+      height: 50px;
+
+   }
    #about .main-col { padding-right: 30px; }
    #about .profile-description {
       display: none;
+   }
+
+   #about .hobbies {
+      width: 100%;
+      text-align: center;
+   }
+
+   #about .hobbies .video-editing{
+      margin-left: 25px;
+   }
+
+   #about .hobbies p{
+      padding-right: 0;
+      padding-left: 5px;
    }
 
 

@@ -263,13 +263,35 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
 }
 
 #about .contact-details { width: 41.66667%; }
+
+#about .hobbies .four {
+  margin-top: 20px;
+  padding-left: 45px;
+}
+
+
+#about .hobbies img{
+    border-radius: 10px;
+    height: 120px;
+    vertical-align: middle;
+}
+#about .hobbies p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #33A4DC;
+  padding-top: 10px;
+  padding-right: 20px;
+}
 #about .download {
-   width: 58.33333%;
-   padding-top: 6px;
+   width: 100%;
+   margin-left: 45px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
+   margin-top: 70px;
+   padding: 11px;
 }
 #about .download .button:hover {
    background: #fff;
@@ -279,7 +301,36 @@ ul#nav li.current a { color: #33A4DC; text-decoration: underline;}
    margin-right: 15px;
    font-size: 20px;
 }
+#about .additional-info {
+  margin-top: 20px;
+}
 
+#about .additional-info h3{
+   font-weight: 300;
+    color: #33A4DC;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    text-align: center;
+}
+#about .additional-info h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #52d3aa;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 0;
+}
+#about .additional-info p{
+  text-align: center;
+  font-size: 16px;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
