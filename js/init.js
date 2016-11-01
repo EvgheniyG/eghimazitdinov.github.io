@@ -12,7 +12,7 @@
 
     var color = ['#BEE3F7', '#45AEEA'];
 
-    circles = [], percentages = [30,80,80,75,70,60,0,0];
+    circles = [], percentages = [30,80,80,75,70,0,0,0];
     images = ['react.png','javascript.png','bootstrap.png','html5.svg','css3.svg','mongo.jpg','nodejs.png','expressjs.png'];
     for (var i = 1; i <= 8; i++) {
       var child = document.getElementById('circles-' + i),
