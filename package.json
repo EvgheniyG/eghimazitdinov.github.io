@@ -1,0 +1,26 @@
+{
+  "name": "evgimov.github.io",
+  "version": "1.0.0",
+  "description": "My personal portfolio web-site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp-sass": "^4.0.2",
+    "gulp": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgimov/evgimov.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgimov/evgimov.github.io/issues"
+  },
+  "homepage": "https://github.com/evgimov/evgimov.github.io#readme"
+}
